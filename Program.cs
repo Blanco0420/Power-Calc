@@ -5,6 +5,24 @@ namespace Calculator
 {
     public class Program
     {
+        static double[] testing(double P,double I,double V,double R){
+            double[] results = new double[4];
+            if(P == 0){
+                results[0] = I*V;
+            }
+            if(I == 0){
+                results[1] = V/R;
+                
+            }
+            if(V == 0){
+                results[2] = I*R;
+            }
+            if(R == 0){
+                results[3] = V/I;
+            }
+            
+            return results;
+        }
         static double[] calculate(double P = default(int), double I = default(int), double V = default(int), double R = default(int)){
             double[] results = new double[4];
             if(V == 0){
@@ -182,7 +200,11 @@ namespace Calculator
         }
         public static void Main()
         {
-            menu();
+            foreach(var result in testing(0, 3, 5, 0)){
+                Console.WriteLine($"{result.Key}, {result.Value}");
+            }
+            
+            // menu();
         }
     }
 }
