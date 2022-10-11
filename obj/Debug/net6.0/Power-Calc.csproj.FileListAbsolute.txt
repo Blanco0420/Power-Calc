@@ -1,0 +1,15 @@
+/home/blanco/code/C#/Power-Calc/bin/Debug/net6.0/Power-Calc
+/home/blanco/code/C#/Power-Calc/bin/Debug/net6.0/Power-Calc.deps.json
+/home/blanco/code/C#/Power-Calc/bin/Debug/net6.0/Power-Calc.runtimeconfig.json
+/home/blanco/code/C#/Power-Calc/bin/Debug/net6.0/Power-Calc.dll
+/home/blanco/code/C#/Power-Calc/bin/Debug/net6.0/Power-Calc.pdb
+/home/blanco/code/C#/Power-Calc/obj/Debug/net6.0/Power-Calc.csproj.AssemblyReference.cache
+/home/blanco/code/C#/Power-Calc/obj/Debug/net6.0/Power-Calc.GeneratedMSBuildEditorConfig.editorconfig
+/home/blanco/code/C#/Power-Calc/obj/Debug/net6.0/Power-Calc.AssemblyInfoInputs.cache
+/home/blanco/code/C#/Power-Calc/obj/Debug/net6.0/Power-Calc.AssemblyInfo.cs
+/home/blanco/code/C#/Power-Calc/obj/Debug/net6.0/Power-Calc.csproj.CoreCompileInputs.cache
+/home/blanco/code/C#/Power-Calc/obj/Debug/net6.0/Power-Calc.dll
+/home/blanco/code/C#/Power-Calc/obj/Debug/net6.0/refint/Power-Calc.dll
+/home/blanco/code/C#/Power-Calc/obj/Debug/net6.0/Power-Calc.pdb
+/home/blanco/code/C#/Power-Calc/obj/Debug/net6.0/Power-Calc.genruntimeconfig.cache
+/home/blanco/code/C#/Power-Calc/obj/Debug/net6.0/ref/Power-Calc.dll
