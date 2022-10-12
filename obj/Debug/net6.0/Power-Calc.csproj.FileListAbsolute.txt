@@ -13,3 +13,18 @@
 /home/blanco/code/C#/Power-Calc/obj/Debug/net6.0/Power-Calc.pdb
 /home/blanco/code/C#/Power-Calc/obj/Debug/net6.0/Power-Calc.genruntimeconfig.cache
 /home/blanco/code/C#/Power-Calc/obj/Debug/net6.0/ref/Power-Calc.dll
+C:\Users\ST779\OneDrive - Canterbury Christ Church University\Code\Power-Calc\obj\Debug\net6.0\Power-Calc.csproj.AssemblyReference.cache
+C:\Users\ST779\OneDrive - Canterbury Christ Church University\Code\Power-Calc\obj\Debug\net6.0\Power-Calc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ST779\OneDrive - Canterbury Christ Church University\Code\Power-Calc\obj\Debug\net6.0\Power-Calc.AssemblyInfoInputs.cache
+C:\Users\ST779\OneDrive - Canterbury Christ Church University\Code\Power-Calc\obj\Debug\net6.0\Power-Calc.AssemblyInfo.cs
+C:\Users\ST779\OneDrive - Canterbury Christ Church University\Code\Power-Calc\obj\Debug\net6.0\Power-Calc.csproj.CoreCompileInputs.cache
+C:\Users\ST779\OneDrive - Canterbury Christ Church University\Code\Power-Calc\obj\Debug\net6.0\Power-Calc.dll
+C:\Users\ST779\OneDrive - Canterbury Christ Church University\Code\Power-Calc\obj\Debug\net6.0\refint\Power-Calc.dll
+C:\Users\ST779\OneDrive - Canterbury Christ Church University\Code\Power-Calc\obj\Debug\net6.0\Power-Calc.pdb
+C:\Users\ST779\OneDrive - Canterbury Christ Church University\Code\Power-Calc\bin\Debug\net6.0\Power-Calc.exe
+C:\Users\ST779\OneDrive - Canterbury Christ Church University\Code\Power-Calc\bin\Debug\net6.0\Power-Calc.deps.json
+C:\Users\ST779\OneDrive - Canterbury Christ Church University\Code\Power-Calc\bin\Debug\net6.0\Power-Calc.runtimeconfig.json
+C:\Users\ST779\OneDrive - Canterbury Christ Church University\Code\Power-Calc\bin\Debug\net6.0\Power-Calc.dll
+C:\Users\ST779\OneDrive - Canterbury Christ Church University\Code\Power-Calc\bin\Debug\net6.0\Power-Calc.pdb
+C:\Users\ST779\OneDrive - Canterbury Christ Church University\Code\Power-Calc\obj\Debug\net6.0\Power-Calc.genruntimeconfig.cache
+C:\Users\ST779\OneDrive - Canterbury Christ Church University\Code\Power-Calc\obj\Debug\net6.0\ref\Power-Calc.dll
