@@ -19,15 +19,25 @@ namespace Calculator
             Console.WriteLine(currVals[3]);
 
             //List out all different possibilities
-            //if(currVals[0] != 0 && currVals[1] != 0)
-            //if(currVals[0] != 0 && currVals[2] != 0)
-            //if(currVals[0] != 0 && currVals[3] != 0)
-            //if(currVals[0] != 0 && currVals[4] != 0)
-            //if(currVals[1] != 0 && currVals[2] != 0)
-            //if(currVals[1] != 0 && currVals[3] != 0)
-            //if(currVals[1] != 0 && currVals[4] != 0)
-            //if(currVals[2] != 0 && currVals[3] != 0)
-            //if(currVals[2] != 0 && currVals[4] != 0)
+            if(currVals[0] != 0 && currVals[1] != 0){ // P, I
+                vals[2] = P/I;
+            }
+            else if(currVals[0] != 0 && currVals[2] != 0){ // P, V
+                vals[1] = P/V;
+            }
+            else if(currVals[0] != 0 && currVals[3] != 0){ // P, R
+                vals[2] = 
+            }
+            else if(currVals[1] != 0 && currVals[2] != 0){ // I, V
+                vals[2] = 
+            }
+            else if(currVals[1] != 0 && currVals[3] != 0){ // I, R
+                vals[2] = 
+            }
+            else if(currVals[2] != 0 && currVals[3] != 0) // V, R
+            {
+                vals[2] = 
+            }
             
             // Dictionary<char, double> results = new Dictionary<char, double>(){
             //     {'P', default(int)},
