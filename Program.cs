@@ -6,22 +6,59 @@ namespace Calculator
     public class Program
     {
         static double[] testing(double P,double I,double V,double R){
-            double[] results = new double[4];
-            if(P == 0){
-                results[0] = I*V;
+            double[] vals = {P, I, V, R};
+            double[] currVals = new double[4];
+            for(int i=0; i<vals.Length; i++){
+                if(vals[i] !=0){
+                    currVals[i] = 1;     
+                }
             }
-            if(I == 0){
-                results[1] = V/R;
-                
-            }
-            if(V == 0){
-                results[2] = I*R;
-            }
-            if(R == 0){
-                results[3] = V/I;
-            }
+            Console.WriteLine(currVals[0]);
+            Console.WriteLine(currVals[1]);
+            Console.WriteLine(currVals[2]);
+            Console.WriteLine(currVals[3]);
+
+            //List out all different possibilities
+            //if(currVals[0] != 0 && currVals[1] != 0)
+            //if(currVals[0] != 0 && currVals[2] != 0)
+            //if(currVals[0] != 0 && currVals[3] != 0)
+            //if(currVals[0] != 0 && currVals[4] != 0)
+            //if(currVals[1] != 0 && currVals[2] != 0)
+            //if(currVals[1] != 0 && currVals[3] != 0)
+            //if(currVals[1] != 0 && currVals[4] != 0)
+            //if(currVals[2] != 0 && currVals[3] != 0)
+            //if(currVals[2] != 0 && currVals[4] != 0)
             
-            return results;
+            // Dictionary<char, double> results = new Dictionary<char, double>(){
+            //     {'P', default(int)},
+            //     {'I', default(int)},
+            //     {'V', default(int)},
+            //     {'R', default(int)},
+            // };
+            // char[] chars = {'P', 'I', 'V', 'R'};
+            // for(int i=0; i<vals.Length; i++){
+            //     if(vals[i] != 0){
+            //         results[chars[i]] = vals[i];
+            //     }
+            // }
+            // if(results[1] == 0){
+            //     results[1] = V/R;  
+            // }
+            // if(results[2] == 0){
+            //     results[2] = I*R;
+            // }
+            // if(results[3] == 0){
+            //     results[3] = V/I;
+            // }
+            // if(results[0] == 0){
+            //     results[0] = I*V;
+            // }
+            // for(int i=0; i<results.Length; i++){
+            //     if(results[i] == 0){
+            //         Console.WriteLine($"{i} is 0");
+            //     }
+            // }
+            return currVals;
         }
         static double[] calculate(double P = default(int), double I = default(int), double V = default(int), double R = default(int)){
             double[] results = new double[4];
@@ -200,9 +237,10 @@ namespace Calculator
         }
         public static void Main()
         {
-            foreach(var result in testing(0, 3, 5, 0)){
-                Console.WriteLine($"{result.Key}, {result.Value}");
-            }
+            double[] results = testing(0, 3, 0, 5);
+            // for(int i=0; i<results.Length; i++){
+            //     Console.WriteLine(results[i]);
+            // }
             
             // menu();
         }
