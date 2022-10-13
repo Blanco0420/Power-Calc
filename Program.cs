@@ -10,6 +10,11 @@ namespace Calculator
             white+= new string(' ', amount-take);
             return white;
         }
+        static double calcVoltDiv(double v, double r1, double r2){
+            double res = default(double);
+            res = v * r2/(r1 + r2);
+            return res;
+        }
         static double[] calculate(double P,double I,double V,double R){
             double[] vals = {P, I, V, R};
             double[] currVals = new double[4];
@@ -185,9 +190,21 @@ namespace Calculator
             Console.WriteLine($"|| V -- {results[2]}" + lengths[2]);
             Console.WriteLine($"|| R -- {results[3]}" + lengths[3]);
             Console.WriteLine("\\" + barrier + "//");
+            advanced();
+        }
+        private static void voltageDiv(){
+            Console.WriteLine("Enter Voltage: ");
+            double v = double.Parse(Console.ReadLine());
+            Console.WriteLine("Enter R1");
+            double r1 = double.Parse(Console.ReadLine());
+            Console.WriteLine("Enter R2");
+            double r2 = double.Parse(Console.ReadLine());
+            Console.WriteLine($"The voltage div is: {calcVoltDiv(v, r1, r2)}");
+            menu();
+
         }
         private static void menu() {
-            Console.WriteLine("Welcome! Please choose from the following:\n 1) Basic\n 2) Advanced");
+            Console.WriteLine("Welcome! Please choose from the following:\n 1) Basic\n 2) Advanced\n 3) Voltage Div");
             string choice = Console.ReadLine();
             switch(choice) {
                 case "1":
@@ -195,6 +212,9 @@ namespace Calculator
                     break;
                 case "2":
                     advanced();
+                    break;
+                case "3":
+                    voltageDiv();
                     break;
                 default:
                     Console.WriteLine("Error, invalid choice. Please try again");
